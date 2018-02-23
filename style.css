@@ -1,0 +1,80 @@
+h1 {
+  font-family: "Rammetto One" , cursive;
+}
+
+h2 {
+  font-family: "Rammetto One" , cursive;
+}
+
+#MyPhoto {
+  width: 300px;
+  height: 225px;
+
+
+}
+
+body {
+    background-color: #f0f0f2;
+    margin: 0;
+    padding: 0;
+    font-family: 'Boogaloo', cursive;
+
+}
+div {
+    width: 600px;
+    margin: 5em auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 1em;
+}
+a:link, a:visited {
+    color: #38488f;
+    text-decoration: none;
+}
+@media (max-width: 700px) {
+    body {
+        background-color: #fff;
+    }
+    div {
+        width: auto;
+        margin: 0 auto;
+        border-radius: 0;
+        padding: 1em;
+    }
+}
+
+ ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #fb6e30 ;
+     color: white;
+    }
+
+li {
+        float: left;
+    }
+
+li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 18px 122.95px;
+        text-decoration: none;
+        font-family:  'Boogaloo', cursive;
+    }
+
+li a:hover {
+        background-color: #00c4cc;
+    color:white;
+    }
+li a.active {
+    background-color: #00c4cc;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #fb6e30;
+    color: white;
+}
