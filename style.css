@@ -6,7 +6,7 @@ h2 {
   font-family: "Rammetto One" , cursive;
 }
 
-#MyPhoto {
+.MyPhoto {
   width: 300px;
   height: 225px;
 
